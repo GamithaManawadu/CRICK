@@ -351,7 +351,7 @@ class _MatchEditState extends State<MatchEdit> {
                                                     snapshot.hasData) {
                                                   return Image.network(
                                                     snapshot.data!,
-                                                    width: 140,
+                                                    width: 130,
                                                     height: 100,
                                                     fit: BoxFit.cover,
                                                   );
@@ -371,13 +371,13 @@ class _MatchEditState extends State<MatchEdit> {
                       margin: const EdgeInsets.all(10),
                       child: ListTile(
                         title: Text('Country'
-                            '                        '
+                            '                       '
                             'Runs'
                             '                  '
                             'Overs'
                             '      '),
                         subtitle: Text(documentSnapshot4['country1'] +
-                            "                          " +
+                            "                                  " +
                             documentSnapshot4['country1Score'] +
                             "                      " +
                             documentSnapshot4['country1Over']),
@@ -388,13 +388,13 @@ class _MatchEditState extends State<MatchEdit> {
                       margin: const EdgeInsets.all(10),
                       child: ListTile(
                         title: Text('Country'
-                            '                        '
+                            '                         '
                             'Runs'
                             '                  '
                             'Overs'
                             '      '),
                         subtitle: Text(documentSnapshot4['country2'] +
-                            "                                   " +
+                            "                           " +
                             documentSnapshot4['country2Score'] +
                             "                       " +
                             documentSnapshot4['country2Over']),

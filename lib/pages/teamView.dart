@@ -32,6 +32,7 @@ class _TeamView extends State<TeamView> {
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 100, 193, 255),
         foregroundColor: AppTheme.darkText,
+        centerTitle: true,
         title: const Text(
           'Countries',
           style: TextStyle(

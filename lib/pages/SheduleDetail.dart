@@ -254,7 +254,7 @@ class _SheduleDetail extends State<SheduleDetail> {
                             'Overs'
                             '      '),
                         subtitle: Text(documentSnapshot4['country1'] +
-                            "                          " +
+                            "                                  " +
                             documentSnapshot4['country1Score'] +
                             "                      " +
                             documentSnapshot4['country1Over']),
@@ -274,7 +274,7 @@ class _SheduleDetail extends State<SheduleDetail> {
                             'Overs'
                             '      '),
                         subtitle: Text(documentSnapshot4['country2'] +
-                            "                                   " +
+                            "                          " +
                             documentSnapshot4['country2Score'] +
                             "                       " +
                             documentSnapshot4['country2Over']),
